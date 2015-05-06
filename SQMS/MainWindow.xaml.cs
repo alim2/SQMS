@@ -24,6 +24,7 @@ namespace SQMS
         {
             InitializeComponent();
 //dfbdb
+//shawon
         }
     }
 }
