@@ -1,2 +1,3 @@
 c:\users\helloworld\documents\visual studio 2013\Projects\SQMS\SQMS\bin\Debug\SQMS.exe.config
 C:\Users\JAHIRALAM\Documents\GitHub\SQMS\SQMS\bin\Debug\SQMS.exe.config
+C:\Users\helloworld\Documents\GitHub\SQMS\SQMS\bin\Debug\SQMS.exe.config
