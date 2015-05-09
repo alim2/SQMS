@@ -1,8 +1,23 @@
 ﻿<Window x:Class="SQMS.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+      
+        xmlns:windowsUi="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"
+        Title="MainWindow" Height="550" Width="900" MinWidth="500" MinHeight="500" WindowState="Maximized" WindowStartupLocation="CenterScreen" >
+    <Grid x:Name="MainGrid" RenderTransformOrigin="0.555,0.496"  >
+        <Grid.RowDefinitions  >
+            <RowDefinition Height="29*"  />
+
+            <RowDefinition x:Name="MidRow" Height="75*" />
+        </Grid.RowDefinitions>
+
+        <windowsUi:NavigationFrame x:Name="BannarNav" ScrollViewer.CanContentScroll="True" ForceCursor="True"   AllowMerging="True" NavigationCacheMode="Enabled">
+            <windowsUi:NavigationFrame.Background>
+                <ImageBrush ImageSource="View/Resources/bank_bannar.jpg"/>
+            </windowsUi:NavigationFrame.Background>
+        </windowsUi:NavigationFrame>
+        <windowsUi:NavigationFrame x:Name="SreenNav" Grid.Row="1" Margin="0,0.748,0.217,0.07" />
+
+
     </Grid>
 </Window>

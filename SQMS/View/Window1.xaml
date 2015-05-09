@@ -1,0 +1,23 @@
+﻿<Window x:Class="SQMS.View.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="300" Width="430" Topmost="True" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Cursor="Hand" Icon="/View/Resources/Signinbutton.jpg">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" x:Name="Bankname" Content="ABC Bank" FontSize="22" FontWeight="Bold" FontFamily="Segoe WP Black" Background="#FFE2FAF1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="S/N :" HorizontalAlignment="Left" Margin="10,95.896,0,0" VerticalAlignment="Top" Width="77" Height="30" FontSize="16" FontWeight="Medium" Background="#FFE2FAF1" Grid.Row="1" VerticalContentAlignment="Center"/>
+        <Label x:Name="LblTime" Content="" HorizontalAlignment="Left" Margin="5,39.896,0,0" VerticalAlignment="Top" Width="170" Height="30" FontWeight="Medium" FontSize="16" Background="#FFE2FAF1" Grid.Row="1" VerticalContentAlignment="Center"/>
+        <Label x:Name="Branchname" Content="Banani Branch" HorizontalAlignment="Left" Margin="5,4.896,0,0" VerticalAlignment="Top" Width="170" Height="30" FontSize="18" FontWeight="SemiBold" FontFamily="Segoe WP Semibold" Background="#FFE2FAF1" Grid.Row="1" VerticalContentAlignment="Center"/>
+        <Label Content="Dept :" HorizontalAlignment="Left" Margin="10,130.896,0,0" VerticalAlignment="Top" Width="77" Height="30" FontWeight="Medium" FontSize="16" Background="#FFE2FAF1" Grid.Row="1" VerticalContentAlignment="Center"/>
+        <Label Content="Pending :" HorizontalAlignment="Left" Margin="10,165.896,0,0" VerticalAlignment="Top" Width="77" Height="30" FontWeight="Medium" FontSize="16" Background="#FFE2FAF1" Grid.Row="1" VerticalContentAlignment="Center"/>
+        <Image x:Name="QrImage" HorizontalAlignment="Left" Height="96" Margin="259,29.896,0,0" VerticalAlignment="Top" Width="142" Grid.Row="1" />
+        <Button Content="PRINT" HorizontalAlignment="Left" Margin="285,151.896,0,0" VerticalAlignment="Top" Width="108" Height="30" Click="Button_Click" FontSize="16" FontFamily="Segoe UI Symbol" Grid.Row="1"/>
+        <Label x:Name="LblSerial" HorizontalAlignment="Left" Margin="87,95.896,0,0" VerticalAlignment="Top" Width="102" Height="30" FontSize="16" FontWeight="Medium" Grid.Row="1" VerticalContentAlignment="Center"/>
+        <Label x:Name="LblDept" HorizontalAlignment="Left" Margin="87,130.896,0,0" VerticalAlignment="Top" Width="102" Height="30" FontSize="16" FontWeight="Medium" Grid.Row="1" VerticalContentAlignment="Center"/>
+        <Label x:Name="LblPending" HorizontalAlignment="Left" Margin="87,165.896,0,0" VerticalAlignment="Top" Width="102" Height="30" FontSize="16" FontWeight="Medium" Grid.Row="1" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
