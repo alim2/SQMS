@@ -143,13 +143,24 @@
     <Resource Include="View\Resources\cancel.png" />
     <Resource Include="View\Resources\Signinbutton.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="View\QR Image\accinfo\" />
-    <Folder Include="View\QR Image\credit\" />
-    <Folder Include="View\QR Image\debit\" />
-    <Folder Include="View\QR Image\deposit\" />
-    <Folder Include="View\QR Image\remitance\" />
-    <Folder Include="View\QR Image\withdraw\" />
+    <Resource Include="View\QR Image\accinfo\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\QR Image\credit\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\QR Image\debit\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\QR Image\deposit\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\QR Image\remitance\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\QR Image\withdraw\5.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
